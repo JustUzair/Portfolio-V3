@@ -180,11 +180,13 @@ const Audits = ({ filterBy }: { filterBy: string }) => {
 
         if (item.platform.includes(filterBy) || filterBy === "all")
           return (
-            <Link href={item.pdfFile} target="_blank" type="application/pdf">
-              <div
-                className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-                key={item.id}
-              >
+            <Link
+              href={item.pdfFile}
+              target="_blank"
+              type="application/pdf"
+              key={item.id}
+            >
+              <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
                 <PinContainer title={"View Audit Report"} href={item.pdfFile}>
                   <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                     <div
