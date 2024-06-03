@@ -399,7 +399,7 @@ export const testimonials = [];
 //   },
 // ];
 
-export const experiences = [
+export const companies = [
   // {
   //   id: 1,
   //   name: "cloudinary",
