@@ -77,11 +77,15 @@ const Projects = ({ filterBy }: { filterBy: string }) => {
     <>
       {projects.map((item: any) => {
         // console.log(`category ${filterBy}`, item.category.includes(filterBy));
+        // console.log(item.deployed_url);
 
         if (item.category.includes(filterBy) || filterBy === "all")
           return (
-            <Link href={item.link} target="_blank" key={item.id}>
-              <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
+            <div
+              className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+              key={item.id}
+            >
+              <Link href={item.link} target="_blank">
                 <PinContainer title={item.link} href={item.link}>
                   <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                     <div
@@ -156,16 +160,16 @@ const Projects = ({ filterBy }: { filterBy: string }) => {
                       ))}
                     </div>
 
-                    <div className="flex justify-center items-center">
-                      <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                        Check Project
+                    <Link href={item.deployed_url || item.link} target="_blank">
+                      <p className="flex justify-center px-2 py-3 rounded-xl items-center lg:text-xl md:text-xs text-sm bg-[#CBACF9] text-zinc-950  hover:text-[#CBACF9] hover:bg-zinc-950 transition-all">
+                        Live Project
+                        <FaLocationArrow className="ml-1 text-zinc-950 hover:text-[#CBACF9]" />
                       </p>
-                      <FaLocationArrow className="ms-3" color="#CBACF9" />
-                    </div>
+                    </Link>
                   </div>
                 </PinContainer>
-              </div>
-            </Link>
+              </Link>
+            </div>
           );
       })}
     </>
