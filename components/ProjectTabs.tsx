@@ -21,7 +21,7 @@ import { Input } from "./ui/input";
 export function ProjectTabs() {
   return (
     <Tabs defaultValue="all" className="mt-10">
-      <TabsList className="lg:grid w-full lg:grid-cols-5 flex flex-wrap">
+      <TabsList className="lg:grid w-full lg:grid-cols-5 flex flex-wrap justify-center items-center">
         <TabsTrigger className="px-5 py-3 " value="all">
           All
         </TabsTrigger>

@@ -44,7 +44,8 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Merging Traditional Web2 Expertise with Cutting-Edge Web3
+            Innovations.
           </p>
 
           {/**
@@ -53,7 +54,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Brewing Traditonal Web2 Apps and Web3 DApps For A Living"
             className="text-center text-[40px] md:text-5xl lg:text-6xl mt-10"
           />
 
