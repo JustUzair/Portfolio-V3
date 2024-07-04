@@ -365,46 +365,47 @@ export const audits = [
 //     link: "/ui.apple.com",
 //   },
 // ];
-export const testimonials = [];
-// export const testimonials = [
-//   {
-//     quote:
-//       "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-// ];
+
+export const testimonials = [
+  {
+    quote:
+      "Thanks for efforts the last 2-3 months, it was pretty cool working together. I have noticed you are more of an independent guy who doesn't like taking helps if not needed as such. I wish you all the best with your preferred career you are pursuing. Let's stay in touch, sure we'd work together in the future once all of us reach where we want to.",
+    name: "Shivraj",
+    title: "Founder & Owner of Kyte Social",
+    profile: "/kyte-social.png",
+  },
+  // {
+  //   quote:
+  //     "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  // },
+  // {
+  //   quote:
+  //     "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  // },
+  // {
+  //   quote:
+  //     "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  // },
+  // {
+  //   quote:
+  //     "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
+  //   name: "Michael Johnson",
+  //   title: "Director of AlphaStream Technologies",
+  // },
+];
 
 export const companies = [
   // {
   //   id: 1,
-  //   name: "cloudinary",
-  //   img: "/cloud.svg",
-  //   nameImg: "/cloudName.svg",
+  //   name: "Kyte",
+  //   img: "/kyte-social.png",
+  //   // nameImg: "/kyte-social.png",
   // },
   // {
   //   id: 2,
