@@ -284,7 +284,7 @@ export const audits = [
     img: "/audit-images/codehawks.svg",
     iconLists: ["/audit-images/codehawks.svg"],
     date: new Date("2023-12-4"),
-    pdfFile: "/audit-reports/2023-12-4-password-store-report.pdf",
+    reportLink: "/audit-reports/2023-12-4-password-store-report.pdf",
   },
   {
     id: 2,
@@ -293,7 +293,7 @@ export const audits = [
     img: "/audit-images/codehawks.svg",
     iconLists: ["/audit-images/codehawks.svg"],
     date: new Date("2024-1-5"),
-    pdfFile: "/audit-reports/2024-1-5-puppy-raffle-report.pdf",
+    reportLink: "/audit-reports/2024-1-5-puppy-raffle-report.pdf",
   },
   {
     id: 3,
@@ -302,7 +302,7 @@ export const audits = [
     img: "/audit-images/codehawks.svg",
     iconLists: ["/audit-images/codehawks.svg"],
     date: new Date("2024-1-15"),
-    pdfFile: "/audit-reports/2024-1-15-tswap-report.pdf",
+    reportLink: "/audit-reports/2024-1-15-tswap-report.pdf",
   },
   {
     id: 4,
@@ -311,7 +311,7 @@ export const audits = [
     img: "/audit-images/codehawks.svg",
     iconLists: ["/audit-images/codehawks.svg"],
     date: new Date("2024-1-24"),
-    pdfFile: "/audit-reports/2024-1-24-thunder-loan-report.pdf",
+    reportLink: "/audit-reports/2024-1-24-thunder-loan-report.pdf",
   },
   {
     id: 5,
@@ -320,16 +320,18 @@ export const audits = [
     img: "/audit-images/codehawks.svg",
     iconLists: ["/audit-images/codehawks.svg"],
     date: new Date("2024-2-2"),
-    pdfFile: "/audit-reports/2024-2-2-boss-bridge-report.pdf",
+    reportLink: "/audit-reports/2024-2-2-boss-bridge-report.pdf",
   },
-  // {
-  //   id: 6,
-  //   name: "Password Store",
-  //   platform: "CodeHawks",
-  //   date: new Date("2023-12-4"),
-  //   pdfFile: "/audit-reports/2023-12-4-password-store-report.pdf",
-  // },
-];
+  {
+    id: 6,
+    name: "TraitForge",
+    platform: "Code4rena",
+    img: "/audit-images/c4-logo.svg",
+    iconLists: ["/audit-images/c4-logo-icon.svg"],
+    date: new Date("2024-08-07"),
+    reportLink: "https://code4rena.com/reports/2024-07-traitforge",
+  },
+].reverse();
 
 // export const projects = [
 //   {

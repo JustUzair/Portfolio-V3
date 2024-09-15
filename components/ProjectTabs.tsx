@@ -21,7 +21,7 @@ import { Input } from "./ui/input";
 export function ProjectTabs() {
   return (
     <Tabs defaultValue="all" className="mt-10">
-      <TabsList className="lg:grid w-full lg:grid-cols-5 flex flex-wrap justify-center items-center">
+      <TabsList className="lg:grid w-full lg:grid-cols-5 flex flex-wrap justify-center items-center pb-10">
         <TabsTrigger className="px-5 py-3 " value="all">
           All
         </TabsTrigger>
@@ -185,13 +185,16 @@ const Audits = ({ filterBy }: { filterBy: string }) => {
         if (item.platform.includes(filterBy) || filterBy === "all")
           return (
             <Link
-              href={item.pdfFile}
+              href={item.reportLink}
               target="_blank"
               type="application/pdf"
               key={item.id}
             >
               <div className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
-                <PinContainer title={"View Audit Report"} href={item.pdfFile}>
+                <PinContainer
+                  title={"View Audit Report"}
+                  href={item.reportLink}
+                >
                   <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                     <div
                       className="relative w-[100%] h-[100%] overflow-hidden lg:rounded-3xl"
