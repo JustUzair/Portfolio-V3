@@ -331,6 +331,15 @@ export const audits = [
     date: new Date("2024-08-07"),
     reportLink: "https://code4rena.com/reports/2024-07-traitforge",
   },
+  {
+    id: 7,
+    name: "Phi",
+    platform: "Code4rena",
+    img: "/audit-images/c4-logo.svg",
+    iconLists: ["/audit-images/c4-logo-icon.svg"],
+    date: new Date("2024-08-28"),
+    reportLink: "https://code4rena.com/reports/2024-08-phi",
+  },
 ].reverse();
 
 // export const projects = [
