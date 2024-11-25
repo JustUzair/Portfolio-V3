@@ -452,8 +452,24 @@ export const workExperiences = [
     ],
     date: "July 2023 - September 2023",
   },
+
   {
     id: 2,
+    companyName: "The League DeFi",
+    title: "Founding Full Stack Web2 & Web3 Engineer",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+    icon: "/the-league.webp",
+    points: [
+      "The League is a Competitive DeFi Trading platform with Team Dynamics.",
+      "Developing & Testing Smart Contracts using Solidity and Foundry for EVM compatible blockchains .",
+      "Developing Frontend using NextJS and TypeScript and integrating smart contracts using Wagmi & Viem ",
+      "Implementing APIs using serverless architecture provided by NextJS",
+    ],
+    date: "January 2024 - June 2024",
+  },
+  {
+    id: 3,
     companyName: "Kyte Social",
     title: "Full Stack Web2 & Web3 Intern",
     className: "md:col-span-2", // change to md:col-span-2
@@ -472,21 +488,22 @@ export const workExperiences = [
   },
 
   {
-    id: 2,
-    companyName: "The League DeFi",
-    title: "Founding Full Stack Web2 & Web3 Engineer",
+    id: 4,
+    companyName: "Nethermind",
+    title: "Smart Contract Auditor (Intern)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-    icon: "/the-league.webp",
+    icon: "/nethermind-icon.png",
     points: [
-      "The League is a Competitive DeFi Trading platform with Team Dynamics.",
-      "Developing & Testing Smart Contracts using Solidity and Foundry for EVM compatible blockchains .",
-      "Developing Frontend using NextJS and TypeScript and integrating smart contracts using Wagmi & Viem ",
-      "Implementing APIs using serverless architecture provided by NextJS",
+      "Conducted security audits on various Web3 protocols, including re-staking adapters, Account Abstraction Paymasters, Bridges, and Governance modules.",
+      "Reporting vulnerabilities and provided mitigations to the vulnerabilities",
+      "Audites protocols, such as Symbiotic Adapter, Tsuko Paymaster-As-A-Service, DefX-Bridge, Mangrove Vault, and Berachain Governance & Proof-of-Liqiuidity.",
+      "Analyzed smart-contracts across Solidity and Cairo ecosystems",
+      "Idnetified 10+ findings across multiple private audits, including a few solo findings",
     ],
-    date: "January 2024 - Current",
+    date: "September 2024 - November 2024",
   },
-];
+].toReversed();
 
 export const socialMedia = [
   {

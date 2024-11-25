@@ -18,6 +18,7 @@
     "@sentry/nextjs": "^7.105.0",
     "@tabler/icons-react": "^3.1.0",
     "@types/three": "^0.163.0",
+    "caniuse-lite": "^1.0.30001684",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.25",
@@ -35,6 +36,7 @@
     "three": "^0.163.0",
     "three-fatline": "^0.7.0",
     "three-globe": "^2.31.0",
+    "update-browserslist-db": "^1.1.1",
     "vercel": "^34.0.0"
   },
   "devDependencies": {
