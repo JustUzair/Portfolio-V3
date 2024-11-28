@@ -381,7 +381,7 @@ export const testimonials = [
   {
     id: 1,
     quote:
-      "Thanks for efforts the last 2-3 months, it was pretty cool working together. I have noticed you are more of an independent guy who doesn't like taking helps if not needed as such. I wish you all the best with your preferred career you are pursuing. Let's stay in touch, sure we'd work together in the future once all of us reach where we want to.",
+      "\"Thanks for efforts the last 2-3 months, it was pretty cool working together. I have noticed you are more of an independent guy who doesn't like taking helps if not needed as such. I wish you all the best with your preferred career you are pursuing. Let's stay in touch, sure we'd work together in the future once all of us reach where we want to.\"",
     name: "Shivraj",
     title: "Founder & Owner @Kyte Social",
     profile: "/kyte-social.png",
@@ -389,16 +389,16 @@ export const testimonials = [
   {
     id: 2,
     quote:
-      "Uzair is a very proactive Security Researcher. He was always active in our team meetings, asked questions, and provided useful feedback to the rest of the team. He has the potential to be a great auditor.",
-    name: "Andrei",
+      '"Uzair is a very proactive Security Researcher. He was always active in our team meetings, asked questions, and provided useful feedback to the rest of the team. He has the potential to be a great auditor."',
+    name: "Andrei Popa",
     title: "Security Researcher @Nethermind",
     profile: "/nethermind-icon.png",
   },
   {
     id: 3,
     quote:
-      "It was a pleasure to mentor 0xJustUzair during my time at Nethermind, where he interned with me on audits of various Ethereum and Starknet protocols. His passion for blockchain security was evident in his ability to thoroughly analyze code and identify key issues. On numerous occasions, he uncovered interesting vulnerabilities, which we collaboratively explored to maximize their impact and resolution. Uzair is a quick learner with strong analytical skills, and I am confident he has the potential to become an exceptional security researcher.",
-    name: "Ondrej (Talfao)",
+      '"It was a pleasure to mentor 0xJustUzair during my time at Nethermind, where he interned with me on audits of various Ethereum and Starknet protocols. His passion for blockchain security was evident in his ability to thoroughly analyze code and identify key issues. On numerous occasions, he uncovered interesting vulnerabilities, which we collaboratively explored to maximize their impact and resolution. Uzair is a quick learner with strong analytical skills, and I am confident he has the potential to become an exceptional security researcher."',
+    name: "Ondrej Tatyrek (Talfao)",
     title: "Founder & Auditor @CODESPECT, Ex-Security Researcher @Nethermind",
     profile: "/talfao.png",
   },
