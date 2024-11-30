@@ -397,11 +397,21 @@ export const testimonials = [
   {
     id: 3,
     quote:
-      '"It was a pleasure to mentor 0xJustUzair during my time at Nethermind, where he interned with me on audits of various Ethereum and Starknet protocols. His passion for blockchain security was evident in his ability to thoroughly analyze code and identify key issues. On numerous occasions, he uncovered interesting vulnerabilities, which we collaboratively explored to maximize their impact and resolution. Uzair is a quick learner with strong analytical skills, and I am confident he has the potential to become an exceptional security researcher."',
+      '"It was a pleasure to mentor Uzair during my time at Nethermind, where he interned with me on audits of various Ethereum and Starknet protocols. His passion for blockchain security was evident in his ability to thoroughly analyze code and identify key issues. On numerous occasions, he uncovered interesting vulnerabilities, which we collaboratively explored to maximize their impact and resolution. Uzair is a quick learner with strong analytical skills, and I am confident he has the potential to become an exceptional security researcher."',
     name: "Ondrej Tatyrek (Talfao)",
     title: "Founder & Auditor @CODESPECT, Ex-Security Researcher @Nethermind",
     profile: "/talfao.png",
   },
+
+  {
+    id: 4,
+    quote:
+      '"It was a pleasure working with you during the last 3 months on different audit projects. I appreciated your active participation in discussions and great willingness to learn. Your technical knowledge and expertise in Solidity were noticeable, and you made good progress with the team. Best of luck with your future endeavors!"',
+    name: "Yasmine Bachi",
+    title: "Security Researcher @Nethermind",
+    profile: "/nethermind-icon.png",
+  },
+
   // {
   //   quote:
   //     "Collaborating with Uzair was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Uzair's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Uzair is the ideal partner.",
