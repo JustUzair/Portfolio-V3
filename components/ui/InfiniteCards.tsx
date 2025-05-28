@@ -124,7 +124,7 @@ export const InfiniteMovingCards = ({
                       alt="profile"
                       width={100}
                       height={100}
-                      className="max-w-20 max-h-20 rounded-full object-contain"
+                      className="max-w-20 max-h-20 rounded-full object-cover"
                     />
                   </div>
                   <span className="flex flex-col gap-1">
