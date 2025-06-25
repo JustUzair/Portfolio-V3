@@ -3,7 +3,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "/resume/Uzair Saiyed (SCET, India).pdf" },
+  { name: "Resume", link: "/resume/Uzair Saiyed.pdf" },
 ];
 
 export const gridItems = [
