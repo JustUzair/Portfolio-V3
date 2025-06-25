@@ -537,7 +537,24 @@ export const workExperiences = [
       "Analyzed smart-contracts across Solidity and Cairo ecosystems",
       "Idnetified 10+ findings across multiple private audits, including a few solo findings",
     ],
-    date: "September 2024 - November 2024",
+    date: "September 2024 - December 2024",
+  },
+  {
+    id: 5,
+    companyName: "BuildBear Labs",
+    title: "Web3 Solutions Engineer & Technical Content Writer",
+    className: "md:col-span-2",
+    thumbnail: "https://avatars.githubusercontent.com/u/107628893", // adjust if you have a custom one
+    icon: "https://avatars.githubusercontent.com/u/107628893", // add correct logo file if needed
+    date: "Jan 2025 – Present",
+    points: [
+      "Researched and created a wide range of BuildBear tutorials, including multiple in-depth video walkthroughs, for plugins like: Across, LI.FI, Pimlico, and many more.",
+      "Created end-to-end CI/CD tutorials for BuildBear, showcasing integrations with complex protocols like Uniswap V4 with Foundry and Uniswap V3 with Hardhat, covering setup & whitelisting, automated deployment, testing, etc, with GitHub Actions.",
+      "Individually researched, built, and documented real-world use cases such as Uniswap V3 swaps using Pimlico’s Paymasters and Bundler; created hands-on videos as well as written tutorials & documentation, demonstrating how these flows work inside BuildBear’s Sandbox environments and their plugins.",
+      "Published step-by-step tutorials integrating different protocols and products into BuildBear such as Batua, Chainlink, and PancakeSwap using BuildBear.",
+      "Worked cross-functionally with product, frontend, backend, and infrastructure teams to test upcoming features, uncover edge-case failures, and deliver detailed feedback based on black-box testing strategies.",
+      "Helped unblock protocol teams lacking testnet infrastructure by showcasing how BuildBear enables testing of bridge/swap logic even where native testnets for Across or LI.FI are unavailable; this drove early adoption, with both plugins receiving 50+ plugin access requests each within the first month after announcement.",
+    ],
   },
 ].toReversed();
 
